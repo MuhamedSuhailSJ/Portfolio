@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { Intro } from "./components/Intro";
 import { Projects } from "./components/Projects";
+import { Skill } from "./components/Skill";
 
 const Portfolio = () => {
   return (
@@ -20,6 +21,7 @@ const Portfolio = () => {
       <Header />
       <main>
         <Intro />
+        <Skill/>
         <Achievements />
         <Projects />
         <Experience />
